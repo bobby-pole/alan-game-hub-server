@@ -12,6 +12,7 @@ type User {
 
 type Query {
   getHello: String!
+  findAll: [User!]!
   user(id: Int!): User!
 }
 
